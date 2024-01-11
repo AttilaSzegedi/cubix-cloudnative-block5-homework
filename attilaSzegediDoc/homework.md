@@ -11,6 +11,5 @@ helm install jvm spring-cubix-hw5 -f jvm.yaml  -n cubix-hw5
 Raw query
 {namespace="cubix-hw5", instance="jvm"} |= `Started CubixFifthHomeworkApplication`
 
-```
-![jvm_graffana_log_startuptime.png](jvm_graffana_log_startuptime.png)
-```
+![](jvm_graffana_log_startuptime.png)
+
