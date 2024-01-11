@@ -13,3 +13,14 @@ Raw query
 
 ![](jvm_graffana_log_startuptime.png)
 
+# delete 
+helm delete jvm -n cubix-hw5   
+
+# Native app install
+helm install native spring-cubix-hw5 -f native.yaml  -n cubix-hw5
+
+# filter 
+Raw query
+{namespace="cubix-hw5", instance="native"} |= `Started CubixFifthHomeworkApplication`
+
+![](nativ_jvm_graffana_log_startuptime.png)
