@@ -12,5 +12,5 @@ Raw query
 {namespace="cubix-hw5", instance="jvm"} |= `Started CubixFifthHomeworkApplication`
 
 ```
-![jvm_graffana_log_startuptime.png] (jvm_graffana_log_startuptime.png)
+![jvm_graffana_log_startuptime.png](jvm_graffana_log_startuptime.png)
 ```
